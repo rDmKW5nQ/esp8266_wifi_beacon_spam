@@ -1,5 +1,3 @@
-
-
 #include <ESP8266WiFi.h> 
 
 extern "C" {
@@ -14,9 +12,7 @@ void setup() {
 }
 
 void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);
   RickRoll();
-  digitalWrite(LED_BUILTIN, LOW);
 }
 
 
